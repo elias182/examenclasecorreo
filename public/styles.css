@@ -1,0 +1,221 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: white;
+
+}
+
+header {
+
+
+    /* background: linear-gradient(to right, #a3bccd, #4e4376); */
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Ajusta según sea necesario */
+    width: 100vw;
+
+}
+
+.butc{
+    margin-top: 100px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+h3 {
+    color: #eee;
+    margin: 10px 0;
+    font-size: 1.5em;
+    opacity: 0.8;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
+section.welcome {
+    background:  linear-gradient(to bottom, #10101031, #000000),linear-gradient(to top, #10101031, #00000079), url('img/clothes.jpg');
+background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0;
+
+    height: 60vh;
+}
+
+section.welcome h1 {
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+section.welcome div {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section.welcome h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+section.welcome button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+section.welcome button:hover {
+    background-color: #ffd700;
+}
+
+.admin-link {
+    display: block;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: #000000; /* Green */
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.product-list-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.product-list {
+    list-style: none;
+    padding: 0;
+}
+
+.product-item {
+
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #000000;
+    border-radius: 15px;
+
+}
+
+.product-info {
+    text-align: center;
+}
+
+.product-info h2 {
+    margin-bottom: 10px;
+    color: #c5c5c5;
+}
+
+.product-image {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.admin-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.edit-link,
+.delete-link,
+.buy-link {
+    display: inline-block;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-link {
+    background-color: #007bff; /* Blue */
+}
+
+.delete-link {
+    background-color: #dc3545; /* Red */
+}
+
+.buy-link {
+    background: linear-gradient(to right, #2b5876, #4e4376);
+}
+
+.edit-link:hover,
+.delete-link:hover,
+.buy-link:hover {
+    background-color: #555; /* Dark Gray */
+}
+.productos{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrito h2{
+    text-align: center;
+    color:  #ffffff;
+}
+.carrito table{
+    color:#ffffff;
+    width: 100vw;
+    border: none;
+    text-align: center;
+    background: linear-gradient(to right, #000000b5, #000000b0), linear-gradient(to bottom, #00000000, #000000);
+    margin-top: 100px;
+}
+
